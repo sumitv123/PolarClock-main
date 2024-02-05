@@ -1,0 +1,889 @@
+body {
+    margin: 0%;
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contaner {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    border: solid 2px rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.minteu{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    border: solid 2px rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hour{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: solid 2px rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.days{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: solid 2px rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.date{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: solid 2px rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.month{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 2px rgb(236, 236, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle, .mcircle, .hcircle, .dcircle, .dacircle, .mocircle {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(35, 36, 36);
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(236, 236, 236);
+}
+
+.deg-0 {
+    transform: translate(350px)
+}
+
+.deg-6 {
+    transform: rotate(6deg) translate(350px) rotate(-6deg);
+}
+
+.deg-12 {
+    transform: rotate(12deg) translate(350px) rotate(-12deg);
+}
+
+.deg-18 {
+    transform: rotate(18deg) translate(350px) rotate(-18deg);
+}
+
+.deg-24 {
+    transform: rotate(24deg) translate(350px) rotate(-24deg);
+}
+
+.deg-30 {
+    transform: rotate(30deg) translate(350px) rotate(-30deg);
+}
+
+.deg-36 {
+    transform: rotate(36deg) translate(350px) rotate(-36deg);
+}
+
+.deg-42 {
+    transform: rotate(42deg) translate(350px) rotate(-42deg);
+}
+
+.deg-48 {
+    transform: rotate(48deg) translate(350px) rotate(-48deg);
+}
+
+.deg-54 {
+    transform: rotate(54deg) translate(350px) rotate(-54deg);
+}
+
+.deg-60 {
+    transform: rotate(60deg) translate(350px) rotate(-60deg);
+}
+
+.deg-66 {
+    transform: rotate(66deg) translate(350px) rotate(-66deg);
+}
+
+.deg-72 {
+    transform: rotate(72deg) translate(350px) rotate(-72deg);
+}
+
+.deg-78 {
+    transform: rotate(78deg) translate(350px) rotate(-78deg);
+}
+
+.deg-84 {
+    transform: rotate(84deg) translate(350px) rotate(-84deg);
+}
+
+.deg-90 {
+    transform: rotate(90deg) translate(350px) rotate(-90deg);
+}
+
+.deg-96 {
+    transform: rotate(96deg) translate(350px) rotate(-96deg);
+}
+
+.deg-102 {
+    transform: rotate(102deg) translate(350px) rotate(-102deg);
+}
+
+.deg-108 {
+    transform: rotate(108deg) translate(350px) rotate(-108deg);
+}
+
+.deg-114 {
+    transform: rotate(114deg) translate(350px) rotate(-114deg);
+}
+
+.deg-120 {
+    transform: rotate(120deg) translate(350px) rotate(-120deg);
+}
+
+.deg-126 {
+    transform: rotate(126deg) translate(350px) rotate(-126deg);
+}
+
+.deg-132 {
+    transform: rotate(132deg) translate(350px) rotate(-132deg);
+}
+
+.deg-138 {
+    transform: rotate(138deg) translate(350px) rotate(-138deg);
+}
+
+.deg-144 {
+    transform: rotate(144deg) translate(350px) rotate(-144deg);
+}
+
+.deg-150 {
+    transform: rotate(150deg) translate(350px) rotate(-150deg);
+}
+
+.deg-156 {
+    transform: rotate(156deg) translate(350px) rotate(-156deg);
+}
+
+.deg-162 {
+    transform: rotate(162deg) translate(350px) rotate(-162deg);
+}
+
+.deg-168 {
+    transform: rotate(168deg) translate(350px) rotate(-168deg);
+}
+
+.deg-174 {
+    transform: rotate(174deg) translate(350px) rotate(-174deg);
+}
+
+.deg-180 {
+    transform: rotate(180deg) translate(350px) rotate(-180deg);
+}
+
+.deg-186 {
+    transform: rotate(186deg) translate(350px) rotate(-186deg);
+}
+
+.deg-192 {
+    transform: rotate(192deg) translate(350px) rotate(-192deg);
+}
+
+.deg-198 {
+    transform: rotate(198deg) translate(350px) rotate(-198deg);
+}
+
+.deg-204 {
+    transform: rotate(204deg) translate(350px) rotate(-204deg);
+}
+
+.deg-210 {
+    transform: rotate(210deg) translate(350px) rotate(-210deg);
+}
+
+.deg-216 {
+    transform: rotate(216deg) translate(350px) rotate(-216deg);
+}
+
+.deg-222 {
+    transform: rotate(222deg) translate(350px) rotate(-222deg);
+}
+
+.deg-228 {
+    transform: rotate(228deg) translate(350px) rotate(-228deg);
+}
+
+.deg-234 {
+    transform: rotate(234deg) translate(350px) rotate(-234deg);
+}
+
+.deg-240 {
+    transform: rotate(240deg) translate(350px) rotate(-240deg);
+}
+
+.deg-246 {
+    transform: rotate(246deg) translate(350px) rotate(-246deg);
+}
+
+.deg-252 {
+    transform: rotate(252deg) translate(350px) rotate(-252deg);
+}
+
+.deg-258 {
+    transform: rotate(258deg) translate(350px) rotate(-258deg);
+}
+
+.deg-264 {
+    transform: rotate(264deg) translate(350px) rotate(-264deg);
+}
+
+.deg-270 {
+    transform: rotate(270deg) translate(350px) rotate(-270deg);
+}
+
+.deg-276 {
+    transform: rotate(276deg) translate(350px) rotate(-276deg);
+}
+
+.deg-282 {
+    transform: rotate(282deg) translate(350px) rotate(-282deg);
+}
+
+.deg-288 {
+    transform: rotate(288deg) translate(350px) rotate(-288deg);
+}
+
+.deg-294 {
+    transform: rotate(294deg) translate(350px) rotate(-294deg);
+}
+
+.deg-300 {
+    transform: rotate(300deg) translate(350px) rotate(-300deg);
+}
+
+.deg-306 {
+    transform: rotate(306deg) translate(350px) rotate(-306deg);
+}
+
+.deg-312 {
+    transform: rotate(312deg) translate(350px) rotate(-312deg);
+}
+
+.deg-318 {
+    transform: rotate(318deg) translate(350px) rotate(-318deg);
+}
+
+.deg-324 {
+    transform: rotate(324deg) translate(350px) rotate(-324deg);
+}
+
+.deg-330 {
+    transform: rotate(330deg) translate(350px) rotate(-330deg);
+}
+
+.deg-336 {
+    transform: rotate(336deg) translate(350px) rotate(-336deg);
+}
+
+.deg-342 {
+    transform: rotate(342deg) translate(350px) rotate(-342deg);
+}
+
+.deg-348 {
+    transform: rotate(348deg) translate(350px) rotate(-348deg);
+}
+
+.deg-354 {
+    transform: rotate(354deg) translate(350px) rotate(-354deg);
+}
+
+
+
+
+
+
+
+
+.mdeg-0 {
+    transform: translate(300px)
+}
+
+.mdeg-6 {
+    transform: rotate(6deg) translate(300px) rotate(-6deg);
+}
+
+.mdeg-12 {
+    transform: rotate(12deg) translate(300px) rotate(-12deg);
+}
+
+.mdeg-18 {
+    transform: rotate(18deg) translate(300px) rotate(-18deg);
+}
+
+.mdeg-24 {
+    transform: rotate(24deg) translate(300px) rotate(-24deg);
+}
+
+.mdeg-30 {
+    transform: rotate(30deg) translate(300px) rotate(-30deg);
+}
+
+.mdeg-36 {
+    transform: rotate(36deg) translate(300px) rotate(-36deg);
+}
+
+.mdeg-42 {
+    transform: rotate(42deg) translate(300px) rotate(-42deg);
+}
+
+.mdeg-48 {
+    transform: rotate(48deg) translate(300px) rotate(-48deg);
+}
+
+.mdeg-54 {
+    transform: rotate(54deg) translate(300px) rotate(-54deg);
+}
+
+.mdeg-60 {
+    transform: rotate(60deg) translate(300px) rotate(-60deg);
+}
+
+.mdeg-66 {
+    transform: rotate(66deg) translate(300px) rotate(-66deg);
+}
+
+.mdeg-72 {
+    transform: rotate(72deg) translate(300px) rotate(-72deg);
+}
+
+.mdeg-78 {
+    transform: rotate(78deg) translate(300px) rotate(-78deg);
+}
+
+.mdeg-84 {
+    transform: rotate(84deg) translate(300px) rotate(-84deg);
+}
+
+.mdeg-90 {
+    transform: rotate(90deg) translate(300px) rotate(-90deg);
+}
+
+.mdeg-96 {
+    transform: rotate(96deg) translate(300px) rotate(-96deg);
+}
+
+.mdeg-102 {
+    transform: rotate(102deg) translate(300px) rotate(-102deg);
+}
+
+.mdeg-108 {
+    transform: rotate(108deg) translate(300px) rotate(-108deg);
+}
+
+.mdeg-114 {
+    transform: rotate(114deg) translate(300px) rotate(-114deg);
+}
+
+.mdeg-120 {
+    transform: rotate(120deg) translate(300px) rotate(-120deg);
+}
+
+.mdeg-126 {
+    transform: rotate(126deg) translate(300px) rotate(-126deg);
+}
+
+.mdeg-132 {
+    transform: rotate(132deg) translate(300px) rotate(-132deg);
+}
+
+.mdeg-138 {
+    transform: rotate(138deg) translate(300px) rotate(-138deg);
+}
+
+.mdeg-144 {
+    transform: rotate(144deg) translate(300px) rotate(-144deg);
+}
+
+.mdeg-150 {
+    transform: rotate(150deg) translate(300px) rotate(-150deg);
+}
+
+.mdeg-156 {
+    transform: rotate(156deg) translate(300px) rotate(-156deg);
+}
+
+.mdeg-162 {
+    transform: rotate(162deg) translate(300px) rotate(-162deg);
+}
+
+.mdeg-168 {
+    transform: rotate(168deg) translate(300px) rotate(-168deg);
+}
+
+.mdeg-174 {
+    transform: rotate(174deg) translate(300px) rotate(-174deg);
+}
+
+.mdeg-180 {
+    transform: rotate(180deg) translate(300px) rotate(-180deg);
+}
+
+.mdeg-186 {
+    transform: rotate(186deg) translate(300px) rotate(-186deg);
+}
+
+.mdeg-192 {
+    transform: rotate(192deg) translate(300px) rotate(-192deg);
+}
+
+.mdeg-198 {
+    transform: rotate(198deg) translate(300px) rotate(-198deg);
+}
+
+.mdeg-204 {
+    transform: rotate(204deg) translate(300px) rotate(-204deg);
+}
+
+.mdeg-210 {
+    transform: rotate(210deg) translate(300px) rotate(-210deg);
+}
+
+.mdeg-216 {
+    transform: rotate(216deg) translate(300px) rotate(-216deg);
+}
+
+.mdeg-222 {
+    transform: rotate(222deg) translate(300px) rotate(-222deg);
+}
+
+.mdeg-228 {
+    transform: rotate(228deg) translate(300px) rotate(-228deg);
+}
+
+.mdeg-234 {
+    transform: rotate(234deg) translate(300px) rotate(-234deg);
+}
+
+.mdeg-240 {
+    transform: rotate(240deg) translate(300px) rotate(-240deg);
+}
+
+.mdeg-246 {
+    transform: rotate(246deg) translate(300px) rotate(-246deg);
+}
+
+.mdeg-252 {
+    transform: rotate(252deg) translate(300px) rotate(-252deg);
+}
+
+.mdeg-258 {
+    transform: rotate(258deg) translate(300px) rotate(-258deg);
+}
+
+.mdeg-264 {
+    transform: rotate(264deg) translate(300px) rotate(-264deg);
+}
+
+.mdeg-270 {
+    transform: rotate(270deg) translate(300px) rotate(-270deg);
+}
+
+.mdeg-276 {
+    transform: rotate(276deg) translate(300px) rotate(-276deg);
+}
+
+.mdeg-282 {
+    transform: rotate(282deg) translate(300px) rotate(-282deg);
+}
+
+.mdeg-288 {
+    transform: rotate(288deg) translate(300px) rotate(-288deg);
+}
+
+.mdeg-294 {
+    transform: rotate(294deg) translate(300px) rotate(-294deg);
+}
+
+.mdeg-300 {
+    transform: rotate(300deg) translate(300px) rotate(-300deg);
+}
+
+.mdeg-306 {
+    transform: rotate(306deg) translate(300px) rotate(-306deg);
+}
+
+.mdeg-312 {
+    transform: rotate(312deg) translate(300px) rotate(-312deg);
+}
+
+.mdeg-318 {
+    transform: rotate(318deg) translate(300px) rotate(-318deg);
+}
+
+.mdeg-324 {
+    transform: rotate(324deg) translate(300px) rotate(-324deg);
+}
+
+.mdeg-330 {
+    transform: rotate(330deg) translate(300px) rotate(-330deg);
+}
+
+.mdeg-336 {
+    transform: rotate(336deg) translate(300px) rotate(-336deg);
+}
+
+.mdeg-342 {
+    transform: rotate(342deg) translate(300px) rotate(-342deg);
+}
+
+.mdeg-348 {
+    transform: rotate(348deg) translate(300px) rotate(-348deg);
+}
+
+.mdeg-354 {
+    transform: rotate(354deg) translate(300px) rotate(-354deg);
+}
+
+
+
+
+
+
+
+
+
+.hdeg-0 {
+    transform: translate(250px)
+}
+
+.hdeg-15 {
+    transform: rotate(15deg) translate(250px) rotate(-15deg);
+}
+
+.hdeg-30 {
+    transform: rotate(30deg) translate(250px) rotate(-30deg);
+}
+
+.hdeg-45 {
+    transform: rotate(45deg) translate(250px) rotate(-45deg);
+}
+
+.hdeg-60 {
+    transform: rotate(60deg) translate(250px) rotate(-60deg);
+}
+
+.hdeg-75 {
+    transform: rotate(75deg) translate(250px) rotate(-75deg);
+}
+
+.hdeg-90 {
+    transform: rotate(90deg) translate(250px) rotate(-90deg);
+}
+
+.hdeg-105 {
+    transform: rotate(105deg) translate(250px) rotate(-105deg);
+}
+
+.hdeg-120 {
+    transform: rotate(120deg) translate(250px) rotate(-120deg);
+}
+
+.hdeg-135 {
+    transform: rotate(135deg) translate(250px) rotate(-135deg);
+}
+
+.hdeg-150 {
+    transform: rotate(150deg) translate(250px) rotate(-150deg);
+}
+
+.hdeg-165 {
+    transform: rotate(165deg) translate(250px) rotate(-165deg);
+}
+
+.hdeg-180 {
+    transform: rotate(180deg) translate(250px) rotate(-180deg);
+}
+
+.hdeg-195 {
+    transform: rotate(195deg) translate(250px) rotate(-195deg);
+}
+
+.hdeg-210 {
+    transform: rotate(210deg) translate(250px) rotate(-210deg);
+}
+
+.hdeg-225 {
+    transform: rotate(225deg) translate(250px) rotate(-225deg);
+}
+
+.hdeg-240 {
+    transform: rotate(240deg) translate(250px) rotate(-240deg);
+}
+
+.hdeg-255 {
+    transform: rotate(255deg) translate(250px) rotate(-255deg);
+}
+
+.hdeg-270 {
+    transform: rotate(270deg) translate(250px) rotate(-270deg);
+}
+
+.hdeg-285 {
+    transform: rotate(285deg) translate(250px) rotate(-285deg);
+}
+
+.hdeg-300 {
+    transform: rotate(300deg) translate(250px) rotate(-300deg);
+}
+
+.hdeg-315 {
+    transform: rotate(315deg) translate(250px) rotate(-315deg);
+}
+
+.hdeg-330 {
+    transform: rotate(330deg) translate(250px) rotate(-330deg);
+}
+
+.hdeg-345 {
+    transform: rotate(345deg) translate(250px) rotate(-345deg);
+}
+
+.hdeg-144 {
+    transform: rotate(144deg) translate(250px) rotate(-144deg);
+}
+
+
+
+
+
+
+
+.ddeg-0 {
+    transform:  rotate(13deg) translate(200px) rotate(-13deg)
+}
+
+.ddeg-51 {
+    transform: rotate(64.4deg) translate(200px) rotate(-64.4deg);
+}
+
+.ddeg-102 {
+    transform: rotate(115.8deg) translate(200px) rotate(-115.8deg);
+}
+
+.ddeg-154 {
+    transform: rotate(167.2deg) translate(200px) rotate(-167.2deg);
+}
+
+.ddeg-205 {
+    transform: rotate(218.6deg) translate(200px) rotate(-218.6deg);
+}
+
+.ddeg-257 {
+    transform: rotate(270deg) translate(200px) rotate(-270deg);
+}
+
+.ddeg-308 {
+    transform: rotate(321.4deg) translate(200px) rotate(-321.4deg);
+}
+
+
+
+
+
+
+
+
+.dadeg-0 {
+    transform: rotate(3deg) translate(150px) rotate(-3deg);
+}
+
+.dadeg-11 {
+    transform: rotate(14.6deg) translate(150px) rotate(-14.6deg);
+}
+
+.dadeg-23 {
+    transform: rotate(26.2deg) translate(150px) rotate(-26.2deg);
+}
+
+.dadeg-34 {
+    transform: rotate(37.8deg) translate(150px) rotate(-37.8deg);
+}
+
+.dadeg-46 {
+    transform: rotate(49.4deg) translate(150px) rotate(-49.4deg);
+}
+
+.dadeg-58 {
+    transform: rotate(61deg) translate(150px) rotate(-61deg);
+}  
+
+.dadeg-69 {
+    transform:  rotate(72.6deg) translate(150px) rotate(-72.6deg)
+}
+
+.dadeg-81 {
+    transform: rotate(84.2deg) translate(150px) rotate(-84.2deg);
+}
+
+.dadeg-92 {
+    transform: rotate(95.8deg) translate(150px) rotate(-95.8deg);
+}
+
+.dadeg-104 {
+    transform: rotate(107.4deg) translate(150px) rotate(-107.4deg);
+}
+
+.dadeg-116 {
+    transform: rotate(119deg) translate(150px) rotate(-119deg);
+}
+
+.dadeg-127 {
+    transform: rotate(130.6deg) translate(150px) rotate(-130.6deg);
+}
+
+.dadeg-139 {
+    transform:  rotate(142.2deg) translate(150px) rotate(-142.2deg)
+}
+
+.dadeg-150 {
+    transform: rotate(153.8deg) translate(150px) rotate(-153.8deg);
+}
+
+.dadeg-162 {
+    transform: rotate(165.4deg) translate(150px) rotate(-165.4deg);
+}
+
+.dadeg-174 {
+    transform: rotate(177deg) translate(150px) rotate(-177deg);
+}
+
+.dadeg-185 {
+    transform: rotate(188.6deg) translate(150px) rotate(-188.6deg);
+}
+
+.dadeg-197 {
+    transform: rotate(200.2deg) translate(150px) rotate(-200.2deg);
+}
+
+.dadeg-208 {
+    transform:  rotate(211.8deg) translate(150px) rotate(-211.8deg)
+}
+
+.dadeg-220 {
+    transform: rotate(224.4deg) translate(150px) rotate(-224.4deg);
+}
+
+.dadeg-232 {
+    transform: rotate(235deg) translate(150px) rotate(-235deg);
+}
+
+.dadeg-243 {
+    transform: rotate(247.6deg) translate(150px) rotate(-247.6deg);
+}
+
+.dadeg-255 {
+    transform: rotate(258.2deg) translate(150px) rotate(-258.2deg);
+}
+
+.dadeg-266 {
+    transform: rotate(269.8deg) translate(150px) rotate(-269.8deg);
+}
+
+/* 266.8 */
+
+
+.dadeg-278 {
+    transform:  rotate(281.4deg) translate(150px) rotate(-281.4deg)
+}
+
+.dadeg-290 {
+    transform: rotate(293deg) translate(150px) rotate(-293deg);
+}
+
+.dadeg-301 {
+    transform: rotate(304.6deg) translate(150px) rotate(-304.6deg);
+}
+
+.dadeg-313 {
+    transform: rotate(316.2deg) translate(150px) rotate(-316.2deg);
+}
+
+.dadeg-324 {
+    transform: rotate(327.8deg) translate(150px) rotate(-327.8deg);
+}
+
+.dadeg-336 {
+    transform: rotate(339.4deg) translate(150px) rotate(-339.4deg);
+}
+.dadeg-348 {
+    transform: rotate(351deg) translate(150px) rotate(-351deg);
+}
+
+
+
+
+.modeg-0 {
+    transform: translate(100px) 
+}
+
+.modeg-30 {
+    transform: rotate(30deg) translate(100px) rotate(-30deg);
+}
+
+.modeg-60 {
+    transform: rotate(60deg) translate(100px) rotate(-60deg);
+}
+
+.modeg-90 {
+    transform: rotate(90deg) translate(100px) rotate(-90deg);
+}
+
+.modeg-120 {
+    transform: rotate(120deg) translate(100px) rotate(-120deg);
+}
+
+.modeg-150 {
+    transform: rotate(150deg) translate(100px) rotate(-150deg);
+}
+
+.modeg-180 {
+    transform:  rotate(180deg) translate(100px) rotate(-180deg)
+}
+
+.modeg-210 {
+    transform: rotate(210deg) translate(100px) rotate(-210deg);
+}
+
+.modeg-240 {
+    transform: rotate(240deg) translate(100px) rotate(-240deg);
+}
+
+.modeg-270 {
+    transform: rotate(270deg) translate(100px) rotate(-270deg);
+}
+
+.modeg-300 {
+    transform: rotate(300deg) translate(100px) rotate(-300deg);
+}
+
+.modeg-330 {
+    transform: rotate(330deg) translate(100px) rotate(-330deg);
+}
